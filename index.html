@@ -1,0 +1,546 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Banib HP</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700;900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1f29f08a95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="plashka">
+		<div class="container">
+			<div class="plashka_inner">
+				<div class="plashka_text">
+					<p>For English speakers</p>
+				</div>
+				<div class="plashka_cont">
+					<div>
+						<i class="fa-solid fa-at"></i>
+						<a class="plashka_mail" href="mailto:info@novobani.ru">info@novobani.ru</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-whatsapp"></i>
+						<a class="plashka_whats" href="#">Написать нам в Whatsapp</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<header class="header" id="header"> <!-- При помощи этого ID будем работать в JS -->
+
+		<div class="container">
+
+			<div class="header_inner">
+
+				<div class="header_logotype" data-scroll="#intro"> <img class="header_logo" src="img/header/newbanni.png" alt="новобани"> </div>
+
+				<nav class="nav" id="nav">
+					<a class="nav_link" href="#" data-scroll="#header"> Главная </a>
+					<a class="nav_link" href="#" data-scroll="#card"> Каталог </a>
+					<a class="nav_link" href="#" data-scroll="#info"> Информация </a>
+					<a class="nav_link" href="#" data-scroll="#blog"> Наш блог</a>
+				</nav>
+
+				<button class="nav-toggle" id="nav_toggle" type="button">
+					<span class="nav-toggle_item">Menu</span>
+				</button>
+
+				<div class="header_tel">
+					<i class="fa-solid fa-phone"></i>
+					<a href="tel:+78124679060" class="header_phone">+7 (812) 467-90-60</a>
+				</div> <!--header_tel -->
+
+			</div> <!-- header_inner -->
+		</div> <!-- container -->
+
+	</header> <!--header -->
+	<div class="page">
+		
+		<div class="intro" id="intro">	
+			
+			<div class="container">
+				
+				<div class="intro_inner">
+					
+					<div class="intro_text">
+						<h1 class="intro_title">Производим мобильные бани на заказ</h1>	
+						<h3 class="intro_suptitle">	Реальные цены <b>от 142 200 руб.</b> - под ключ, заходи и парься! </h3>
+					</div>
+
+					<div class="intro_suptext">
+						<p class="intro_titlep"><b>Новинка!</b> Принимаем заказы на бани-бочки из сибирского кедра и лиственницы, цены уточняйте</p>
+						<p class="intro_suptitlep">Сроки изготовления до 24 дней. Проведем экскурсию на производстве в поселке Сосново в день обращения</p>
+						<p class="intro_p">	Приозерский район, работаем без выходных! </p>
+					</div>
+
+					<div class="button">
+						<a class="btn" href="tel:+78124679060"><i class="fa-solid fa-phone"></i> Получить консультацию</a>
+						<img class="btn_logo" src="img/header/production.png" alt="">
+						<a class="btn_proiz" href="#">Посетить производство</a>
+					</div>
+
+				</div> <!-- intro_inner -->
+
+			</div>	<!-- container -->
+
+		</div> <!-- intro -->
+		<section class="section" id="card">
+			
+			<div class="container">
+				
+				<div class="section_prod">
+					<div class="section_glav"> Главная /</div> 
+					<h2 class="section_suptitle">Продукция нашего производства</h2>
+					<p class="section_title">Принимаем заказы на <b>январь-февраль</b></p>
+				</div> <!-- section_header -->
+
+				<div class="card">
+					<div class="card_item" id="klass">
+						<div class="card_inner">
+							<div class="card_img">
+								<img src="img/section/1.jpg" alt="">
+							</div>
+							<div class="card_text">Banni HP</div>	
+						</div>
+						<div class="card_info">
+							<div class="card_name">Классические бани-бочки</div>
+							<div class="card_opis">Сделано из бруса камерной сушки, собирается на нашем производстве с 2012 года.</div>
+							<div class="card_sum">от 142 200 руб.</div>
+						</div>
+					</div>
+					
+					<div class="card_item" id="kvadro">
+						<div class="card_inner">
+							<div class="card_img">
+								<img src="img/section/2.jpg" alt="">
+							</div>
+							<div class="card_text">Banni HP</div>
+						</div>
+						<div class="card_info">
+							<div class="card_name">Квадро бани-бочки</div>
+							<div class="card_opis">Больше объема по отношению к класической бане-бочке и больше дополнительного функционала.</div>
+							<div class="card_sum">от 157 200 руб.</div>
+						</div>
+					</div>
+					
+					<div class="card_item" id="oval">
+						<div class="card_inner">
+							<div class="card_img">
+								<img src="img/section/3.jpg" alt="">
+							</div>
+							<div class="card_text">Banni HP</div>
+						</div>
+						<div class="card_info">
+							<div class="card_name">Овальные бани-бочки Сундучок</div>
+							<div class="card_opis">Оригинальная конструкция на базе стандартной бани-бочки, максимальная комплектация по умолчанию</div>
+							<div class="card_sum">от 142 200 руб.</div>
+						</div>
+					</div>
+
+					<div class="card_item" id="karkaslira">
+						<div class="card_inner">
+							<div class="card_img">
+								<img src="img/section/4.jpg" alt="">
+							</div>
+							<div class="card_text">Banni HP</div>
+						</div>
+						<div class="card_info">
+							<div class="card_name">Каркасные бани серии Лира</div>
+							<div class="card_opis">Сделано по каркасной технологии с полным утеплением стен, пола и потолка</div>
+							<div class="card_sum">от 201 500 руб.</div>
+						</div>	
+					</div>
+					
+					<div class="card_item" id="karkaslira">
+						<div class="card_inner">
+							<div class="card_img">
+								<img src="img/section/5.jpg" alt="">
+							</div>
+							<div class="card_text">Banni HP</div> 
+						</div>
+						<div class="card_info">
+							<div class="card_name">Каркасные бани серии Лира Плюс</div>
+							<div class="card_opis">Серия каркасных бань Лира с верандой, сборка модульного типа, в два этапа доставки манипулятором</div>
+							<div class="card_sum">от 412 800 руб.</div>
+						</div>
+					</div>
+					
+					<div class="card_item" id="karkasflora"> 
+						<div class="card_inner">
+							<div class="card_img">
+								<img src="img/section/6.jpg" alt="">
+							</div>
+							<div class="card_text">Banni HP</div>
+						</div>
+						<div class="card_info">
+							<div class="card_name">Каркасные бани серии Флора</div>
+							<div class="card_opis">Уникальная мобильная баня Флора увеличенной шириной в 3 метра, много стекла, вариации с купелью или без купели</div>
+							<div class="card_sum">от 412 800 руб.</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- container -->
+
+		</section>
+
+		<section class="section" id="info">
+			<div class="container">
+				<div class="info">
+					<div class="info_suptitle">
+						<h2 class="info_h2">Коротко о нас и нашем производстве</h2>
+					</div>
+					<p class="info_title">С 2007 года наша компания занимается изготовлением и продажей пиломатериалов. Являемся одними из первых и самых крупных производителей и оптовым поставщиком пиломатериалов на территории Санкт-Петербурга. </p>
+				</div>
+
+				<div class="info_card" id="what">
+					<div class="info_item">
+						<div class="info_info">
+							<div class="info_num">
+								001.
+							</div>
+							<div class="info_text">
+								Производственные цеха площадью 1500 кв.м. в 60 км от КАДа. <a href="">Смотреть схему проезда</a>
+							</div>
+						</div>
+					</div>
+					<div class="info_item">
+						<div class="info_info">
+							<div class="info_num">
+								002.
+							</div>
+							<div class="info_text">
+								Оптимизировали расходы, чтобы сделать наши бани еще более доступными для каждого
+							</div>
+						</div>
+					</div>	
+					<div class="info_item">
+						<div class="info_info">
+							<div class="info_num">
+								003.
+							</div>
+							<div class="info_text">
+								Работаем с проверенными поставщиками и материалами и несем ответственность за качество по договору
+							</div>
+						</div>
+					</div>	
+					<div class="info_item">
+						<div class="info_info">
+							<div class="info_num">
+								004.
+							</div>
+							<div class="info_text">
+								Собственные сушильные камеры древесины, более 8 кубов сухой древесины ежесуточно.
+							</div>
+						</div>
+					</div>	<!-- info_item	 -->
+				</div> <!-- info_card -->
+			</div> <!-- container -->
+		</section> <!-- section -->
+
+		<section class="blog" id="blog">
+			
+			<div class="container">
+				
+				<div class="blog_inner">
+					<h2>Наш блог</h2>
+					<a href="#" data-scroll="#info">Смотреть все записи</a>
+				</div>
+
+				<div class="blog_card">
+
+					<div class="blog_item">
+
+						<div class="blog_header">
+							<a href="#">
+								<img  class="blog_photo" src="img/card/1.png" alt="">
+							</a>	
+						</div>
+						<div class="blog_info">
+							<div class="blog_title">
+								<div class="blog_date"> 9 янвваря 2021 </div>
+								/
+								<a href="#">Раздел блога</a>
+							</div>
+						</div>
+						<h3 class="blog_text">Являемся одними из первых и самых</h3>
+					</div>
+
+					<div class="blog_item">
+
+						<div class="blog_header">
+							<a href="#">
+								<img  class="blog_photo" src="img/card/2.png" alt="">
+							</a>	
+						</div>
+						<div class="blog_info">
+							<div class="blog_title">
+								<div class="blog_date"> 9 янвваря 2021 </div>
+								/
+								<a href="#">Раздел блога</a>
+							</div>
+						</div>
+						<h3 class="blog_text">Являемся одними из первых и самых крупных производителей и оптовым поставщиком...</h3>
+					</div>
+
+					<div class="blog_item">
+
+						<div class="blog_header">
+							<a href="#">
+								<img  class="blog_photo" src="img/card/3.png" alt="">
+							</a>	
+						</div>
+						<div class="blog_info">
+							<div class="blog_title">
+								<div class="blog_date"> 9 янвваря 2021 </div>
+								/
+								<a href="#">Раздел блога</a>
+							</div>
+						</div>
+						<h3 class="blog_text">Являемся одними из первых и самых крупных производителей</h3>
+					</div>
+
+				</div> <!-- blog_card -->
+			</div> <!-- container -->
+		</section> <!-- blog -->
+
+		<section class="works">	
+
+			<div class="container">
+				
+				<div class="works_inner">
+					<h3>Ежегодно изготавливаем более 100 мобильных бань</h3>
+				</div>
+				<div class="works_card">
+					<div>
+						<img src="img/works/1.png" alt="">
+					</div>
+					<div class="works_col">
+						<div><img src="img/works/2.png" alt=""></div>
+			    		<div><img src="img/works/3.png" alt=""></div>
+			    		<div><img src="img/works/4.png" alt=""></div>
+			    		<div><img src="img/works/5.png" alt=""></div>
+					</div>
+				</div>	<!-- works_card -->
+				<div class="works_card">
+					<div class="works_col">
+						<div><img src="img/works/6.png" alt=""></div>
+			    		<div><img src="img/works/7.png" alt=""></div>
+			    		<div><img src="img/works/8.png" alt=""></div>
+			    		<div><img src="img/works/9.png" alt=""></div>
+					</div>
+					<div class="works_last_works_col">
+						<img src="img/works/10.png" alt="">
+					</div>
+				</div> <!-- works_card -->
+
+				<div class="works_info">
+					
+					<div class="works_catalog">	
+						<div class="works_title">
+							<div class="works_text">каталог</div>
+							<a href="#">Смотреть полный каталог наших бань и цены</a>
+						</div>
+					</div> <!-- works_catalog -->
+
+					<div class="works_button">
+						<a class="btn" href="tel:+78124679060"><i class="fa-solid fa-phone"></i> Получить консультацию</a>
+						<img class="btn_logo" src="img/header/production.png" alt="">
+						<a class="btn_proiz" href="#">Посетить производство</a>
+					</div> <!-- button -->
+				</div>	<!-- works_info -->	
+			</div>	
+
+		</section>
+
+		<section class="section section--map">
+			<div class="map">
+
+				<div class="map_img">
+					<a href="https://goo.gl/maps/gdwimVodPPXHGpca6">
+						<img src="img/map/map.png" alt="">
+					</a>
+				</div>
+
+				<div class="map_text">
+
+					<div class="map_suptitle">
+						Приезжайте к нам, организуем экскурсию и лично познакомимся
+					</div>
+
+					<div class="map_title">
+						Ленинградская область, Приозерский район, <b>поселок Сосново</b>, ул. Академическая д.1
+					</div>
+
+					<a class="map_but" href="">
+						Смотреть схему проезда
+					</a>
+
+					<div class="map_foottitle">
+						<b>Перед поездкой к нам</b>, просьба, предварительно звонить по телефону, производство закрытого типа, договоримся о времени посещения!
+					</div>  
+
+				</div>	<!-- map_text -->
+			</div>  <!-- map -->
+		</section>	<!-- section section--map -->
+
+		<footer class="footer">
+			<div class="footer_img">
+				<a href="#">
+					<img src="img/footer/1.png" alt="щепки">
+				</a>
+			</div>
+			<div class="container">
+				<div class="footer_inner">
+					
+					<div class="footer_left">
+						<div class="footer_logo">
+							<img class="header_logo" src="img/footer/newbanni.png" alt="новобани">
+						</div>
+					</div>
+
+					<div class="footer_right">
+						<div class="footer_header">
+
+							<div class="footer_bojki">
+								<div>
+									<div class="footer_supcol"> 
+										<a href="#">Бани-бочки</a> 
+									</div>
+									<div class="footer_col">
+										<div><a href="#" data-scroll="#klass">Классические</a></div>
+										<div><a href="#" data-scroll="#kvadro">Квадро-Бани</a></div>
+										<div><a href="#" data-scroll="#oval">Овальные</a></div>
+									</div>
+								</div>
+
+								<div>
+									<div class="footer_footcol">
+										<a href="#" data-scroll="#karkaslira">Каркасные бани</a>
+									</div>
+									<div class="footer_col">
+										<div><a href="#" data-scroll="#karkaslira">Серая Лира</a></div>
+										<div><a href="#" data-scroll="#karkasflora">Серая Флора</a></div>
+									</div>
+								</div>
+							</div> <!-- footer_bojki -->
+
+							<div class="footer_info">
+								<div>	
+
+									<div class="footer_supcol"> 
+										<a href="#" data-scroll="#header">Информация</a> 
+									</div>
+
+									<div class="footer_col">
+										<div><a href="#" data-scroll="#info">О нас</a></div>
+										<div><a href="#" data-scroll="#info">Вакансии</a></div>
+										<div><a href="#" data-scroll="#what">Вопросы и ответы</a></div>
+										<div><a href="#">Контакты</a></div>
+									</div>	
+
+								</div>
+								<div>
+
+									<div class="footer_footcol"> 
+										<a href="#">Наш блог</a> 
+									</div>
+									<div class="footer_col"> 
+										<a href="#">For English speakers</a> 
+									</div>
+
+								</div>
+							</div> <!-- footer_info -->
+
+							<div class="footer_zakaz">
+								<div>
+
+									<div class="footer_supcol"> 
+										<a href="#">Приём заказов</a> 
+									</div>
+
+									<div class="footer_num">
+										<a class="footer_tel" href="tel:+78124679060">+7 (812) 467-90-60</a>
+									</div>
+
+									<p>с 09:00 до 20:00 без выходных</p>
+
+									<div class="footer_what">
+										<a href="#">Написать в Whatsapp</a>
+									</div>
+
+									<div class="footer_mail">	
+										<a href="mailto:info@novobani.ru">info@novobani.ru</a>
+									</div>
+
+								</div>
+							</div> <!-- footer_zakaz -->
+						</div> <!-- footer_header -->
+						
+						<div class="footer_section">
+							<div>Подписывайтесь на нас:</div>
+
+							<div class="footer_vk">
+								<a href="#">Вконтакте</a>
+							</div>
+
+							<div class="footer_insta">
+								<a href="#">Instagram</a>
+							</div>	
+						</div> <!-- footer_section -->
+
+						<div class="footer_footer">
+							
+							<div>
+
+								2022 © «Новобани» Воспроизведение или распространение материалов с сайта в любой форме может производиться только с письменного разрешения правообладателя. При использовании материалов — ссылка на правообладателя и источник заимствования обязательна.
+
+							</div>
+
+							<div>
+								
+								Сайт не является публичной офертой и носит информационный характер.
+
+							</div>
+
+							<a href="№">Политика конфиденциальности</a>
+
+						</div> <!-- footer_footer -->
+
+					</div> <!-- footer_right -->
+
+				</div> <!-- footer_inner -->
+			</div> <!-- container -->
+		</footer>
+
+	</div> <!-- /page  -->
+
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
+
+
+
+		double jis;, znam, f;
+        Console.WriteLine("Введите значение X");
+        double x = double.Parse((Console.ReadLine()));
+        Console.WriteLine("Введите значение Y");
+        double y = double.Parse((Console.ReadLine()));
+        Console.WriteLine("Введите значение Z");
+        double z = double.Parse((Console.ReadLine()));
+
+        jisl = Math.Min(x, y) + y;
+        znam = Math.Pow(Math.Max(x, Math.Max(y, z)), 2) + y*x;
+      
+        if (znam == 0.0)
+            Console.WriteLine("Делить на НУЛЬ нельзя");
+        else
+        {
+            f = jisl / znam;
+            Console.WriteLine("f = " + f);
+        }
